@@ -1,0 +1,49 @@
+.app-background {
+  background-image: url("C:/assignment/frontend/8288032.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+
+@media (max-width: 576px) {
+  .form-container {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  input.form-control {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .table th, .table td {
+    font-size: 0.85rem;
+    padding: 0.3rem;
+  }
+}
